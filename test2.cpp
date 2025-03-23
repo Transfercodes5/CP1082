@@ -32,9 +32,9 @@ int main()
     int choice;
     float value1,value2;
 
-    cout<<"Press 1 to calculate area of triangle";
-    cout<<"\nPress 2 to calculate area of circle";
-    cout<<"\nPress 3 to calculate area of square";
+    cout<<"Press 1 to calculate area of triangle.";
+    cout<<"\nPress 2 to calculate area of circle.";
+    cout<<"\nPress 3 to calculate area of square.";
     cout<<"\nYour choice : ";
     cin>>choice;
 
