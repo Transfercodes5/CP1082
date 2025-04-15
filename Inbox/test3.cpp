@@ -1,32 +1,17 @@
-#include<iostream>
+#include <iostream>
+#include <iomanip>
 using namespace std;
-
-void power(int m,int n)
-{
-    int result=1;
-
-    for(int i=0;i<n;i++)
-    {
-        result = result*m;
-    }
-
-    cout<<"iResult : "<<result;
-}
-
-void power(double m,int n)
-{
-    double result=1;
-
-    for(int i=0;i<n;i++)
-    {
-        result = result*m;
-    }
-
-    cout<<"\ndResult : "<<result;
-}
 
 int main()
 {
-    power(6,5);
-    power(6.31,5);
+    int n1 = 123;
+    double n2 = 34.3423143;
+
+    cout<<"Number 1 : "<<setw(10)<<setprecision(2)<<setfill('*')<<n1<<endl;
+    cout<<"Number 2 : "<<setw(10)<<setprecision(5)<<setfill('*')<<n2<<endl;
+    cout<<"Number 3 : "<<fixed<<n2<<endl;
+    cout<<"Number 4 : "<<scientific<<n2<<endl;
+
+    
+    cout<<"\nEnd"<<endl;
 }
