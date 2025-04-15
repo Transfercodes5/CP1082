@@ -12,6 +12,6 @@ int main()
     cout<<"Number 3 : "<<fixed<<n2<<endl;
     cout<<"Number 4 : "<<scientific<<n2<<endl;
 
-    
+
     cout<<"\nEnd"<<endl;
 }
